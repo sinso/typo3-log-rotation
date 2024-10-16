@@ -1,12 +1,15 @@
 {
 	"name": "sinso/log-rotation",
 	"type": "typo3-cms-extension",
-	"description": "Backports the RotatingFileWriter fromTYPO3 v13 to TYPO3 v12",
+	"description": "Backports the RotatingFileWriter from TYPO3 v13 to TYPO3 v12",
 	"version": "1.0.0",
 	"autoload": {
 		"psr-4": {
 			"Sinso\\LogRotation\\": "Classes"
 		}
+	},
+	"require": {
+		"typo3/cms-core": "^12.0 || ^13.0",
 	},
 	"extra": {
 		"typo3/cms": {
